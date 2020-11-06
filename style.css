@@ -1,0 +1,210 @@
+/* Global */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+nav {
+  height: 60px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  width: 50vw;
+}
+
+.search input[type="text"] {
+  padding: 10px;
+  font-size: 10px;
+  color: #f5c765;
+  border: 1px solid grey;
+  float: left;
+  width: 60%;
+  background: #ffffff;
+}
+
+.search select {
+  padding: 10px;
+  font-size: 10px;
+  color: #8fc7f1;
+  border: 1px solid grey;
+  float: left;
+  width: 32%;
+  background: #ffffff;
+}
+
+.search button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: #a6cf4c;
+  color: #ffffff;
+  font-size: 10px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+#ebaylogo {
+  width: 125px;
+}
+
+#profilephoto {
+  width: 30px;
+  border-radius: 100%;
+}
+
+.far,
+#cart,
+#grid {
+  color: #7e7e7e;
+}
+
+#hamburger {
+  color: #a8d04f;
+}
+
+/* Body */
+
+/* Purchase */
+
+.purchase {
+  background-color: #fdfdfd;
+}
+
+/* Product */
+
+.product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+/* Gallery */
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.ptitle {
+  width: 100%;
+}
+
+#mainphoto {
+  height: 50%;
+}
+
+.pcarousel {
+  display: flex;
+  flex-direction: row;
+}
+
+.pcarousel img {
+  width: 20%;
+}
+
+/* Checkout */
+
+.checkout {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  border: 1px solid black;
+}
+
+/* Seller */
+
+.seller {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10%;
+  border: 1px solid black;
+  margin-top: 3%;
+  margin-left: 1%;
+  margin-bottom: 4%;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-bottom: 1%;
+}
+
+#mfreeman {
+  height: 100%;
+  border-radius: 100%;
+  padding-right: 10px;
+  margin-right: 5px;
+}
+
+.choices {
+  border: 1px solid black;
+  height: 60%;
+  margin-left: 2%;
+  margin-top: 5%;
+  padding-left: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.price {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+}
+
+.buy {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addopts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin-right: 2%;
+  border-left: 1px solid #dfdfdf;
+}
+
+.addopts ul {
+  list-style-type: none;
+  padding-right: 25%;
+}
+
+/* Recommended Items */
+
+.scarousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.scarousel img {
+  width: 30%;
+}

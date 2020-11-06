@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script 
+        src="https://kit.fontawesome.com/d5ea798184.js" 
+        crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <header>        
+        <nav>
+            <ul>
+                <li><img src="./photos/ebaylogo.png" alt="ebay-logo" id="ebaylogo"></li>  
+                <li><i class="fas fa-th" id="grid"></i></li>
+                <li id="searchwidth">
+                    <form method="get" action="#" class="search">
+                        <input type="text" placeholder="Search" name="search" />
+                        <select id="categories" name="categories">
+                            <option value="art" selected>All Categories</option>
+                            <option value="art">Art</option>
+                            <option value="books">Books</option>
+                            <option value="music">Music</option>
+                            <option value="real-estate">Real Estate</option> 
+                            <option value="travel">Travel</option>
+                        </select>
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>     
+                </li>
+                <li><img src="/photos/Peterlinkin_sq.jpg" id="profilephoto"></li>
+                <li><i class="far fa-bell"></i></li>
+                <li><i class="fas fa-shopping-cart" id="cart"></i></li>
+                <li><i class="fas fa-align-left" id="hamburger"></i></li>
+            </ul>    
+        </nav>
+    </header>
+    <main>
+        <div class="purchase">
+            <div class="product">
+                <div class="gallery">
+                    <div class="ptitle">
+                        <h3>WITHINGS ACTIVITÉ SMART WATCH</h3>
+                        <span>178 per day</span><span>10 days left</span>
+                    </div>
+                    <img src="./photos/withings1.jpg" id="mainphoto" alt="withings-watch">
+                    <div class="pcarousel">
+                        <img src="./photos/withings2.jpg" alt="withings-watch-2">
+                        <img src="./photos/withings1.jpg" alt="wihtings-watch">
+                        <img src="./photos/withings3.jpg" alt="withings-watch-3">
+                        <img src="./photos/withings4.png" alt="withings-watch-4">
+                        <img src="./photos/withings5.jpg" alt="withings-watch-5">
+                    </div>
+                </div>
+                <div class="checkout">
+                    <div class="seller">
+                        <img src="photos/morganfreeman.jpg" alt="morgan-freeman" id="mfreeman">
+                        <div>
+                            <p>Olive Shop</p>
+                            <span>Follow</span> <span>Other Item</span></>
+                        </div>
+                    </div>
+                    <div class="choices">
+                        <h4>
+                            <span><i class="fas fa-box"></i></span>
+                            <span>New with Tags</span>
+                        </h4>                    
+                        <div class="colorchoices">
+                            <label for=colorpicker>Color</label>
+                            <input type="color" id="colorpicker" value="#FFFFFF"> 
+                            <input type="color" id="colorpicker" value="#555555"> 
+                            <input type="color" id="colorpicker" value="#4688C5"> 
+                            <input type="color" id="colorpicker" value="#C55774"> 
+                            <input type="color" id="colorpicker" value="#E8AB6C"> 
+                            <input type="color" id="colorpicker" value="#38BDBA"> 
+                        </div>
+                        <div class="quantity">
+                            <label for="qty">Quantity</label>
+                            <input type="number" id="qty" min="1" max="2">
+                            <span>2 available</span>
+                        </div>
+                        <div class="price">
+                            <div class="buy">
+                                <h2>429.99$</h2>
+                                <p>Price</p>
+                                <button type="submit"></button><span>BUY IT NOW</span>
+                            </div>
+                            <div class="addopts">
+                                <ul>
+                                    <li>Add to Cart</li>
+                                    <li>Add to Watch List</li>
+                                    <li>Add to Collection</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="guarantees"></div>
+                    </div>
+                </div>                    
+            </div>
+            <div class="similar">
+                <h4>PEOPLE WHO VIEWED THIS ITEM ALSO VIEWED</h4>
+                <div class="scarousel">
+                    <img src="photos/apple_watch.jpg" alt="apple-watch"> 
+                    <img src="photos/smartring.jpg" alt="smartring">
+                    <img src="photos/withingsmonitor.jpg" alt="bpmonitor">
+                </div>
+            </div>
+        </div>
+        <div class="features">
+            <nav>                
+            </nav>
+            <div class="shipping"></div>
+            <div class="specifics">
+                <div class="cover"></div>    
+                <div class="case"></div>    
+                <div class="sleep"></div>    
+                <div class="water"></div>    
+                <div class="zones"></div>
+            </div>    
+        </div>
+    </main>
+    <footer>    
+    </footer>    
+</body>
+</html>
